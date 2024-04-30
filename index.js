@@ -32,5 +32,5 @@ app.use("/api/users", userRoutes);
 app.use("/api/posts", postRoutes);
 
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${"http://localhost:" + PORT}`);
+  console.log(`Server is running on port ${"http://localhost:" + PORT + ""}`);
 });
